@@ -55,7 +55,7 @@ qubes-dom0-update gcc kmod grub2-tools perl-bignum make
 dnf install kernel-latest-devel-5.9.14-1.qubes.x86_64.rpm
 ```
 3. Download the latest nvidia driver from https://www.nvidia.com/en-us/geforce/drivers/
-   In my case "NVIDIA-Linux-x86_64-455.45.01.run
+   (*In my case "NVIDIA-Linux-x86_64-455.45.01.run*)
 4. Copy the downloaded driver to dom0
 ```shell
 qvm-run -p ${VM} 'cat /home/user/Downloads/NVIDIA-Linux-x86_64-455.45.01.run' > NVIDIA-Linux-x86_64-455.45.01.run
