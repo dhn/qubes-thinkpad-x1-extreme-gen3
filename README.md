@@ -4,6 +4,12 @@ This is my personal repository with files and notes
 which helps to install/run Qubes 4.1 on a ThinkPad X1
 Extreme Gen3
 
+### General settings
+- Disable Secure Boot
+- Build Qubes 4.1 via [qubes-builder](https://github.com/QubesOS/qubes-builder) or download Qubes 4.1 alpha [ISO](http://ftp.halifax.rwth-aachen.de/qubes/iso/Qubes-R4.1.0-alpha20201014-x86_64.iso)
+
+**Note: Qube 4.1 alpha comes with kernel 5.4.x** 
+
 ## Update to Kernel 5.9.14-1
 
 1. Copy rpm files to dom0:
